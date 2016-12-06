@@ -12,7 +12,7 @@ You will form teams of 2 to 3 people for this project.  Each person must submit 
 
 Requirements:
 
-* Choose a topic which interests your team.  
+* Choose a topic which interests your team.
 * Create a REST server that will maintain/retrieve that data.
   * GET requests - Different parameters of searching...a single entity, all entities or parameter qualified entries.
   * POST - Add data to the appropriate tables
@@ -33,7 +33,10 @@ Directory structure:
 ├─  ├── //Documentation.
 ├─  frontend/
 │   ├── //All of our frontend javascript.
+│      ├── css/
+│         ├── style.css
 │   ├── index.js
 ├─  support/
 │   ├── //For mySQL scripts and other things.
+│   ├── soda_designs.sql
 ├─  README.md
